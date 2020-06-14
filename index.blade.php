@@ -9,16 +9,10 @@
         <h1>課題</h1>
 
         <div>
-            @yield('link')
+            @yield('content')
         </div>
 
-        <div>
-            @yield('register')
-        </div>
         
-        <div>
-            @yield('login')
-        </div>
  
     </body>
 </html>

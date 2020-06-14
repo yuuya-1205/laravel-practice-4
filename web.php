@@ -17,7 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('/login', 'LoginController');
+Route::get('login', 'AuthController@index');
 
-Route::resource('/register', 'RegisterController');
-
+Route::get('register', 'AuthController@other');

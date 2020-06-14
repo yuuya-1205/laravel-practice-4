@@ -1,10 +1,10 @@
 @extends('layout.index')
 
 
-@section('link')
+@section('content')
 
-<a href="http://127.0.0.1:8002/login">login</a>
-<a href="http://127.0.0.1:8002/register">register</a>
+<a href="http://127.0.0.1:8001/login">login</a>
+<a href="http://127.0.0.1:8001/register">register</a>
 
 <style>
     .title {
@@ -20,9 +20,6 @@
     
 </style>
 
-@endsection
-
-@section('login')
 
 <form action="#" method="post">
   <p>Login</p>
